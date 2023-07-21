@@ -1,0 +1,16 @@
+server:
+  port: 8083
+
+oauth2:
+  google:
+    client-id: #
+    client-secret: #
+    redirect-uri: #
+    token-uri: https://oauth2.googleapis.com/token
+    resource-uri: https://www.googleapis.com/oauth2/v2/userinfo
+
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+
